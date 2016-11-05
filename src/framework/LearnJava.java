@@ -16,9 +16,7 @@ public class LearnJava {
 	 * There should never be more than one main() per executable.
 	 */
 	public static void main (String[] args) {
-		System.out.print("Hello World!\n");
+		LessonSelector lesson_launcher = new LessonSelector();
 	}
 }
 
-public class LessonSelector {}
-public class LessonSuperClass {}
